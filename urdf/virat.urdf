@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.1"?>
 <robot name="virat">
 
 	<link name="base_footprint" />
@@ -26,8 +26,8 @@
 
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 0 0" />
-			<mass value="60.0" />
-			<inertia ixx="400.0" ixy="-100" ixz="-100.0" iyy="800.0" iyz="0.0" izz="600.0" />
+			<mass value="200" />
+			<inertia ixx="300" ixy="-100" ixz="-100" iyy="2000" iyz="1500" izz="1000" />
 		</inertial>
 	</link>
 
@@ -48,8 +48,8 @@
 
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 0 0" />
-			<mass value="10.0" />
-			<inertia ixx="2.5" ixy="0.0" ixz="0.0" iyy="5" iyz="0.0" izz="2.5" />
+			<mass value="10" />
+			<inertia ixx="2.5" ixy="0" ixz="0" iyy="5" iyz="0" izz="2.5" />
 		</inertial>
 	</link>
 
@@ -77,8 +77,8 @@
 
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 0 0" />
-			<mass value="10.0" />
-			<inertia ixx="2.5" ixy="0.0" ixz="0.0" iyy="5" iyz="0.0" izz="2.5" />
+			<mass value="10" />
+			<inertia ixx="2.5" ixy="0" ixz="0" iyy="5" iyz="0" izz="2.5" />
 		</inertial>
 	</link>
 
@@ -106,7 +106,7 @@
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<mass value="2" />
-			<inertia ixx="0.5" ixy="0.0" ixz="0.0" iyy="1" iyz="0.0" izz="0.5" />
+			<inertia ixx="0.5" ixy="0" ixz="0" iyy="1" iyz="0" izz="0.5" />
 		</inertial>
 	</link>
 
