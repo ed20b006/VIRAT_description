@@ -73,6 +73,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         front_castor_link:
           Alpha: 1
           Show Axes: false
@@ -103,6 +108,8 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
+        camera_link:
+          Value: true
         front_castor_link:
           Value: true
         left_wheel_link:
@@ -118,6 +125,8 @@ Visualization Manager:
       Tree:
         base_footprint:
           base_link:
+            camera_link:
+              {}
             front_castor_link:
               {}
             left_wheel_link:
