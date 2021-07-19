@@ -1,10 +1,10 @@
 <?xml version="1.1"?>
 <robot name="virat">
 
-	<link name="base_footprint" />
+	<link name="dummy_link" />
 
 	<joint name="base_joint" type="fixed">
-		<parent link="base_footprint" />
+		<parent link="dummy_link" />
 		<child link="base_link" />
 		<origin xyz="0 0 0" rpy="0 0 0" />
 	</joint>
@@ -142,8 +142,8 @@
 			<torque>1.0</torque>
 			<commandTopic>virat/cmd_vel</commandTopic>
 			<odometryTopic>virat/odom</odometryTopic>
-			<odometryFrame>virat/odom</odometryFrame>
-			<robotBaseFrame>virat/base_link</robotBaseFrame>
+			<odometryFrame>odom</odometryFrame>
+			<robotBaseFrame>base_link</robotBaseFrame>
 		</plugin>
 	</gazebo>
 
